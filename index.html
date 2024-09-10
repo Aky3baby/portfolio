@@ -8,10 +8,11 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <nav>
+    <nav class="fixed right-0 left-0">
 
         <h4>LB.BROKYE</h4>
         <div class="nav-items">
@@ -25,15 +26,19 @@
         </div>
     </nav>
     <section class="hero">
-        <div class="hero-info" >
+        <div class="w-[60%] pl-[10%] pt-[100px]" >
             <p>Hi there!</p>
             <h1 class="title text-white">I am Linda Brokye</h1>
             <h1 class="title text-white">A Web Developer</h1>
             <p class="subtitle text-white">far far away,behind the word mountains, far from the countries Vokalia and
                 Consonantia, there live the
-                blind texts.</p>
-            <button>HIRE ME</button>
-            <button>VIEW PORTFOLIOS</button>
+                blind texts.
+            </p>
+
+            <button class="bg-[#0779E4] h-[53px]
+            text-white font -bold px-[24px]py-[16px] rounded">HIRE ME</button>
+            <button class="text-[#0779E4] h-[53px]
+            bg-white font- bold px-[24px] py-[16px] rounded">VIEW PORTFOLIO</button>
         </div>
     </section>
 </body>
